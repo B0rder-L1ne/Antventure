@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antventure - Slide 1</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: #000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .text {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(5, 17, 2, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .navigation {
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+        }
+        .arrow {
+            cursor: pointer;
+            font-size: 18px;
+            padding: 5px;
+            background: #000000;
+            color: rgb(103, 233, 194);
+            border: solid;
+            border-radius: 2px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <div class="container">
+        <img src="2.jpg" alt="Ants Adventure Slide 1">
+        <div class="text">
+            Deep within the lush jungle, the alliance of HOT Potatoes diligently gathers their resources. Massive piles of potatoes are accumulated under the shade of ancient trees, as the ants prepare for the upcoming jungle season.
+        </div>
+        <div class="navigation">
+            <!-- Remove 'Prev' button if it's the first slide -->
+            <button class="arrow" onclick="location.href='story2.html'">Next →</button>
+        </div>
+    </div>
+</body>
+</html>
