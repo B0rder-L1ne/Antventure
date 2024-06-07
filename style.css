@@ -22,7 +22,7 @@ img {
 
 .text {
     position: absolute;
-    bottom: 20px;
+    bottom: 60px; /* Anstatt 20px, jetzt 60px */
     right: 20px;
     background: rgba(5, 17, 2, 0.5);
     padding: 10px;
